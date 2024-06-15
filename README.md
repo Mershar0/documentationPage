@@ -15,7 +15,7 @@ This project is a documentation page providing comprehensive information about C
 - CSS
 
 ## Preview
-([Survey]([https://github.com/Mershar0/surveyForm/blob/main/img/survey.png](https://github.com/Mershar0/documentationPage/blob/main/img/docpage.png)))
+([DocPage](https://github.com/Mershar0/documentationPage/blob/main/img/docpage.png))
 
 ## How to Use
 1. Clone the repository:
