@@ -1,0 +1,116 @@
+/* Estilos generales de reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo del cuerpo y fuentes */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  #header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #header h1 {
+    color: #333; /* Gris oscuro */
+  }
+  
+  /* Contenedor principal */
+  #main-doc {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilos para la barra de navegación */
+  #navbar {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar li {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #45a049; /* Verde más oscuro */
+  }
+  
+  /* Estilos para las secciones principales */
+  .main-section {
+    background-color: #f9f9f9; /* Gris claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .main-section header {
+    font-size: 1.5rem;
+    color: #333; /* Gris oscuro */
+    margin-bottom: 10px;
+  }
+  
+  .main-section p {
+    margin-bottom: 10px;
+  }
+  
+  .main-section ul {
+    margin-bottom: 10px;
+  }
+  
+  .main-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos específicos para medios pequeños (móviles) */
+  @media screen and (max-width: 600px) {
+    #main-doc {
+      padding: 10px;
+    }
+  
+    .main-section {
+      padding: 15px;
+    }
+  
+    #navbar {
+      flex-direction: column; /* Apilar enlaces de navegación en dispositivos móviles */
+    }
+  
+    .nav-link {
+      margin: 5px 0; /* Espacio entre enlaces en dispositivos móviles */
+    }
+  }
+  
