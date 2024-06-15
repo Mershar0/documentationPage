@@ -20,7 +20,7 @@ This project is a documentation page providing comprehensive information about C
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mershar0/surveyForm.git
+   git clone https://github.com/Mershar0/documentationPage.git
 
 2. Navigate to the project directory and open index.html in your web browser.
 
